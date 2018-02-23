@@ -62,11 +62,6 @@
         </ul>
       </div>
     </nav>
-    <!-- count particles -->
-    <div class="count-particles">
-      <span class="js-count-particles">--</span>
-    </div>
-
     <!-- particles.js container -->
     <div id="particles-js"></div>
 
@@ -77,15 +72,11 @@
     <!-- stats.js -->
     <script src="js/lib/stats.js"></script>
     <script>
-    var count_particles, stats, update;
-    count_particles = document.querySelector('.js-count-particles');
+    var update;
     update = function() {
-        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-        }
         requestAnimationFrame(update);
     };
-    requestAnimationFrame(update);;
+    requestAnimationFrame(update);
 
     </script>
 
@@ -96,7 +87,7 @@
 
         <div class="my-auto">
 
-          <h1 class="mb-0">Cyrus
+          <h1 class="mb-0"><span style="color: white">Cyrus</span>
             <span class="text-primary">Jia</span>
           </h1>
           <div class="subheading mb-5">1035 Foster City Blvd, Apt D · Foster City, CA 94404 · (626) 321-8840 ·
@@ -105,7 +96,7 @@
           <p class="mb-5">Software Engineer @ IBM Silicon Valley <br /> University of Southern California <br /> B.S. Computer Science <br />B.S. Electrical Engineering</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
-              <a href="www.facebook.com/cyrus.jia.5">
+              <a href="http://www.facebook.com/cyrus.jia.5">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -214,18 +205,16 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
-
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <p>
-CS@Princeton: Bitcoin and Cryptocurrency Technologies (Ongoing) <br />
-CS@USC: Discrete Methods in Computer Science, Data Structures and OO Design, Algorithms/Theory of Computing, Computer Networks, Software Design, Mobile Application Development, Artificial Intelligence, Software Engineering, Operating Systems <br />
-EE@USC: Wireless Communication Technology, Electro-Magnetics, Electronic Circuits, Linear Circuits, Communication Systems <br />
-Math@USC: Probability for Engineers, Discrete Math, Calc I-III, Differential Equations, Partial Differential Equations <br />
-Languages: Java, C++, Obj-C, C, Python, Node, SQL/Cassandra, Matlab, HTML/PHP <br />
-Tools: Eclipse, Xcode, Linux, Git, Bitbucket, SourceTree, GCC/G++, ElasticSearch, GDB, REST API, Autodesk Maya <br />
-Interests: Stock/Option trading, Cryptocurrencies (Blockchain/DAG) <br />
+<b>CS@Princeton:</b> Bitcoin and Cryptocurrency Technologies (Ongoing) <br />
+<b>CS@USC:</b> Discrete Methods in Computer Science, Data Structures and OO Design, Algorithms/Theory of Computing, Computer Networks, Software Design, Mobile Application Development, Artificial Intelligence, Software Engineering, Operating Systems <br />
+<b>EE@USC:</b> Wireless Communication Technology, Electro-Magnetics, Electronic Circuits, Linear Circuits, Communication Systems <br />
+<b>Math@USC:</b> Probability for Engineers, Discrete Math, Calc I-III, Differential Equations, Partial Differential Equations <br />
+<b>Languages:</b> Java, C++, Obj-C, C, Python, Node, SQL/Cassandra, Matlab, HTML/PHP <br />
+<b>Tools:</b> Eclipse, Xcode, Linux, Git, Bitbucket, SourceTree, GCC/G++, ElasticSearch, GDB, REST API, Autodesk Maya <br />
 
           </p>
+
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
