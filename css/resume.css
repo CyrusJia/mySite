@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Times New Roman", serif;
+  font-family: "Arial", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -35,8 +35,9 @@ h2 {
 .subheading {
   /*text-transform: uppercase;*/
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
-  font-size: 1.35rem;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.2rem;
+
 }
 
 .list-social-icons a {
