@@ -14,11 +14,11 @@
      width: 100%;
      height: 100%;
      background-color: #020000;
-     /*background-image: url("");*/
-     /*background-repeat: no-repeat;*/
-     /*background-size: cover;*/
-     /*background-position: 100% 100%;*/
-     z-index: -999;
+     background-image: url("");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 100% 100%;
+     z-index: 1;
 }
 .my-auto{
   z-index: 1;
